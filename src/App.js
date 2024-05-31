@@ -25,7 +25,7 @@ function App() {
 const [user]=useAuthState(auth);
   return (
     <div className="App">
-      <main>
+      <main> // bruh
 
         {!user && <Redirect to='/discord-clone'/>}
         <Switch>
